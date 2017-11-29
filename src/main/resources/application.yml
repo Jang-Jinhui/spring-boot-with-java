@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    favicon:
+      enabled: true
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: true
+pagehelper:
+  helperDialect: mysql
+mybatis:
+  check-config-location:
